@@ -8,7 +8,6 @@
 .title{
     background-color: #2F303A;
     height: 600px;
-    width: 1600px;
     text-align: center;
 }
 
@@ -41,28 +40,147 @@
     color: #FFFFFF;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     line-height: 30px;
 }
 
 .features{
     padding: 0;
-     width: 762px; 
-     margin: 0 auto
+     height: 289px; 
+     text-align: center;
 }
 
 .features ul{
     list-style: none; 
     margin: 0; 
-    padding: 0
+    padding: 85px 205px 104px 225px;  
 }
 
 .features li{
-    display: inline;
+    display: inline-block;
+    text-align: left;
     width: 270px;
     height: 101px;
-    left: 215px;
-    top: 774px;
+    margin-left: 30px;   
 }
 
+.features p{
+    margin-top: 10px;
+    color: #757575;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features h3{
+    margin: 0px;
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.occupation{
+    
+    height: 386px;
+    padding: 0px 215px 94px 215px;
+}
+
+.occupation h2{
+    text-align: center;
+    margin: 0px;
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.occupation ul{
+    list-style: none;
+    margin-top: 50px ;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.occupation li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.team{
+    background-color: #F5F4FA;
+    padding: 94px 215px;
+}
+
+.team h2{
+    margin: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;  
+    color: #212121;   
+}
+
+.team ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.team li{
+    display: inline-block;
+    
+}
+
+.team-card{
+    box-sizing: border-box;
+    width: 270px;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.card-image{
+    display: block;
+    width: 100%;
+}
+
+.team h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0px;
+    margin-bottom: 30px;
+}
