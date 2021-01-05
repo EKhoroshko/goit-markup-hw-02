@@ -9,15 +9,16 @@
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-text-color:#2196F3;
-    --background-color: #FFFFFF;
-    --background-two-color:#F5F4FA;
+    --background-main-color: #FFFFFF;
+    --background-light-color:#F5F4FA;
     --background-hero-color: #2F303A;
 }
 
 body{
-    background-color:var(--background-color);
+    background-color:var(--background-main-color);
     color: var(--primary-text-color);
     font-family: Roboto,sans-serif;
+    font-weight: 400;
     letter-spacing: 0.03em;
 }
 
@@ -96,7 +97,7 @@ a{
 .hero-link{
     color:#FFFFFF;
     background-color: var(--accent-text-color);
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
@@ -141,7 +142,7 @@ a{
 
 .address a{
     color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -156,7 +157,7 @@ a.connection{
 
 .button{
     color: var(--title-text-color);
-    background-color: var(--background-two-color);
+    background-color: var(--background-light-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
